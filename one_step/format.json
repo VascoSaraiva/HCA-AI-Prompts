@@ -1,0 +1,249 @@
+{
+    "name": "one_step_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "real_context": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "typology": {
+                        "type": "string"
+                    },
+                    "areas": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "fundamental_skills": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "Linguagens e textos",
+                                "Desenvolvimento pessoal e autonomia",
+                                "Informação e comunicação",
+                                "Bem-estar, saúde e ambiente",
+                                "Raciocínio e resolução de problemas",
+                                "Sensibilidade estética e artística",
+                                "Pensamento crítico e pensamento criativo",
+                                "Saber científico, técnico e tecnológico",
+                                "Relacionamento interpessoal",
+                                "Consciências e domínio do corpo"
+                            ]
+                        }
+                    },
+                    "tasks": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "number"
+                                },
+                                "description": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "description"
+                            ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "participants": {
+                        "type": "object",
+                        "properties": {
+                            "educationLevel": {
+                                "type": "string",
+                                "description": "The educational level of the participants that the activity will attract.",
+                                "enum": [
+                                    "2º Ciclo",
+                                    "3º Ciclo",
+                                    "Ensino Secundário",
+                                    "Licenciatura",
+                                    "Mestrado",
+                                    "Doutoramento"
+                                ]
+                            },
+                            "description": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "educationLevel",
+                            "description"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "objective": {
+                        "type": "string"
+                    },
+                    "duration": {
+                        "type": "object",
+                        "properties": {
+                            "start": {
+                                "type": "integer",
+                                "description": "Unix timestamp (seconds since epoch)"
+                            },
+                            "end": {
+                                "type": "integer",
+                                "description": "Unix timestamp (seconds since epoch)"
+                            }
+                        },
+                        "required": [
+                            "start",
+                            "end"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "key_moment": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "title",
+                    "description",
+                    "typology",
+                    "areas",
+                    "fundamental_skills",
+                    "tasks",
+                    "participants",
+                    "objective",
+                    "duration",
+                    "key_moment"
+                ],
+                "additionalProperties": false
+            },
+            "fictional_context": {
+                "type": "object",
+                "properties": {
+                    "genre": {
+                        "type": "string",
+                        "enum": [
+                            "Fantasia",
+                            "Ficção Ciêntifica",
+                            "Mistério",
+                            "Noir",
+                            "História",
+                            "Distopia",
+                            "Utopia",
+                            "Terror",
+                            "Romance",
+                            "Comédia",
+                            "Thriller",
+                            "Western",
+                            "Épico",
+                            "Poesia",
+                            "Fábula",
+                            "Reportagem",
+                            "Aventura",
+                            "Realismo"
+                        ]
+                    },
+                    "protagonists": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "O leitor",
+                                    "O grupo de participantes"
+                                ]
+                            },
+                            "description": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "description"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "scenario": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "Localização",
+                                    "Contexto Temporal",
+                                    "Contexto Social"
+                                ]
+                            },
+                            "description": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "description"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "narrator": {
+                        "type": "string"
+                    },
+                    "objective": {
+                        "type": "string"
+                    },
+                    "element_of_suspense": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "object",
+                        "properties": {
+                            "moment_1": {
+                                "type": "string"
+                            },
+                            "moment_2": {
+                                "type": "string"
+                            },
+                            "moment_3": {
+                                "type": "string"
+                            },
+                            "moment_4": {
+                                "type": "string"
+                            },
+                            "moment_5": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "moment_1",
+                            "moment_2",
+                            "moment_3",
+                            "moment_4",
+                            "moment_5"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "required": [
+                    "genre",
+                    "protagonists",
+                    "scenario",
+                    "narrator",
+                    "objective",
+                    "element_of_suspense",
+                    "text"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "required": [
+            "real_context",
+            "fictional_context"
+        ],
+        "additionalProperties": false
+    }
+}
