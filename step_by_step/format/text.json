@@ -1,0 +1,41 @@
+{
+    "name": "text_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "object",
+                "properties": {
+                    "moment_1": {
+                        "type": "string"
+                    },
+                    "moment_2": {
+                        "type": "string"
+                    },
+                    "moment_3": {
+                        "type": "string"
+                    },
+                    "moment_4": {
+                        "type": "string"
+                    },
+                    "moment_5": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "moment_1",
+                    "moment_2",
+                    "moment_3",
+                    "moment_4",
+                    "moment_5"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "required": [
+            "text"
+        ],
+        "additionalProperties": false
+    }
+}

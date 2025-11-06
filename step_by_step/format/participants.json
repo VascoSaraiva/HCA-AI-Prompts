@@ -1,0 +1,38 @@
+{
+    "name": "participants",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "participants": {
+                "type": "object",
+                "properties": {
+                    "educationLevel": {
+                        "type": "string",
+                        "description": "The educational level of the participants that the activity will attract.",
+                        "enum": [
+                            "2º Ciclo",
+                            "3º Ciclo",
+                            "Ensino Secundário",
+                            "Licenciatura",
+                            "Mestrado",
+                            "Doutoramento"
+                        ]
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "educationLevel",
+                    "description"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "required": [
+            "participants"
+        ],
+        "additionalProperties": false
+    }
+}

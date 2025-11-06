@@ -1,0 +1,19 @@
+{
+    "name": "areas_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "areas": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        },
+        "required": [
+            "areas"
+        ],
+        "additionalProperties": false
+    }
+}

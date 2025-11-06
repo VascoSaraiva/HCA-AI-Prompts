@@ -1,0 +1,16 @@
+{
+    "name": "element_of_suspense_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "element_of_suspense": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "element_of_suspense"
+        ],
+        "additionalProperties": false
+    }
+}

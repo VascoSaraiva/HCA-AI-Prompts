@@ -1,0 +1,16 @@
+{
+    "name": "objective_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "objective": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "objective"
+        ],
+        "additionalProperties": false
+    }
+}

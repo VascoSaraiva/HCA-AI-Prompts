@@ -1,0 +1,16 @@
+{
+    "name": "title_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "title"
+        ],
+        "additionalProperties": false
+    }
+}

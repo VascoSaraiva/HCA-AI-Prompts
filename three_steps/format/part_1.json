@@ -1,0 +1,123 @@
+{
+    "name": "part_one_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "typology": {
+                "type": "string"
+            },
+            "areas": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "fundamental_skills": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "enum": [
+                        "Linguagens e textos",
+                        "Desenvolvimento pessoal e autonomia",
+                        "Informação e comunicação",
+                        "Bem-estar, saúde e ambiente",
+                        "Raciocínio e resolução de problemas",
+                        "Sensibilidade estética e artística",
+                        "Pensamento crítico e pensamento criativo",
+                        "Saber científico, técnico e tecnológico",
+                        "Relacionamento interpessoal",
+                        "Consciências e domínio do corpo"
+                    ]
+                }
+            },
+            "tasks": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "number"
+                        },
+                        "description": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "id",
+                        "description"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "participants": {
+                "type": "object",
+                "properties": {
+                    "educationLevel": {
+                        "type": "string",
+                        "description": "The educational level of the participants that the activity will attract.",
+                        "enum": [
+                            "2º Ciclo",
+                            "3º Ciclo",
+                            "Ensino Secundário",
+                            "Licenciatura",
+                            "Mestrado",
+                            "Doutoramento"
+                        ]
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "educationLevel",
+                    "description"
+                ],
+                "additionalProperties": false
+            },
+            "objective": {
+                "type": "string"
+            },
+            "duration": {
+                "type": "object",
+                "properties": {
+                    "start": {
+                        "type": "integer",
+                        "description": "Unix timestamp (seconds since epoch)"
+                    },
+                    "end": {
+                        "type": "integer",
+                        "description": "Unix timestamp (seconds since epoch)"
+                    }
+                },
+                "required": [
+                    "start",
+                    "end"
+                ],
+                "additionalProperties": false
+            },
+            "key_moment": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "title",
+            "description",
+            "typology",
+            "areas",
+            "fundamental_skills",
+            "tasks",
+            "participants",
+            "objective",
+            "duration",
+            "key_moment"
+        ],
+        "additionalProperties": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "tasks_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "tasks": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "number"
+                        },
+                        "description": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "id",
+                        "description"
+                    ],
+                    "additionalProperties": false
+                }
+            }
+        },
+        "required": [
+            "tasks"
+        ],
+        "additionalProperties": false
+    }
+}

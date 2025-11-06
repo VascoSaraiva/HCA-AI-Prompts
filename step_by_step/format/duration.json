@@ -1,0 +1,31 @@
+{
+    "name": "duration_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "duration": {
+                "type": "object",
+                "properties": {
+                    "start": {
+                        "type": "integer",
+                        "description": "Unix timestamp (seconds since epoch)"
+                    },
+                    "end": {
+                        "type": "integer",
+                        "description": "Unix timestamp (seconds since epoch)"
+                    }
+                },
+                "required": [
+                    "start",
+                    "end"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "required": [
+            "duration"
+        ],
+        "additionalProperties": false
+    }
+}

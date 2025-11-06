@@ -1,0 +1,16 @@
+{
+    "name": "narrator_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "narrator": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "narrator"
+        ],
+        "additionalProperties": false
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "key_moment_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "key_moment": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "key_moment"
+        ],
+        "additionalProperties": false
+    }
+}

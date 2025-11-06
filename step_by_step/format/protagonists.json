@@ -1,0 +1,33 @@
+{
+    "name": "protagonists_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "protagonists": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "O leitor",
+                            "O grupo de participantes"
+                        ]
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "type",
+                    "description"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "required": [
+            "protagonists"
+        ],
+        "additionalProperties": false
+    }
+}

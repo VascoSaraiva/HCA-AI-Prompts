@@ -1,0 +1,16 @@
+{
+    "name": "typology_schema",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "typology": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "typology"
+        ],
+        "additionalProperties": false
+    }
+}
