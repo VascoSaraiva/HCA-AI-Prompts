@@ -28,7 +28,7 @@ Exemplos: "Sustentabilidade", "Desporto escolar", "Língua portuguesa", "Comunic
 Indicam até quatro competências que os membros de uma iniciativa poderão desenvolver ao se envolverem nas atividades. Baseiam-se na lista de competências designadas pela Direção Geral da Educação no Perfil dos Alunos à Saída da Escolaridade Obrigatória.
 
 ## Tarefas
-Listagem das tarefas que são alvo da estratégia de gamificação. Cada tarefa deve ser simples, mensurável, realista e limitada no tempo. Lista as tarefas por ordem temporal.
+Listagem das tarefas que são alvo da estratégia de gamificação. Cada tarefa deve ser simples, mensurável, realista e limitada no tempo. Lista as tarefas por ordem temporal. Escolhe tarefas com maior potencial de serem gamificadas.
 
 Exemplos: "Plantação de árvores nos terrenos indicados", "Dar comida aos animais do Jardim Zoológico", "Distribuir águas pelos participantes do cortamato durante o dia da corrida".
 
@@ -51,9 +51,6 @@ Uma frase com a indicação de qual é o momento mais importante da iniciativa, 
 
 ## Género
 O género literário da narrativa. Exemplos: Fantasia; Ficção Cientifica; Mistério; Noir; História; Distopia; Utopia; Terror; Comédia; Épico; Poesia; Fábula; Thriller; Reportagem; Western; Aventura; Realismo.
-
-## Conceito
-Gera uma frase começada por “E se (...)?” que sintetiza a temática desta história. (e.g. E se o lixo do mar se transformasse num monstro submarino?). Este conceito deve ser altamente criativo e captar o interesse.
 
 ## Protagonistas
 Breve descrição que sem são os protagonistas na narrativa. Exemplos: "Cientista", "Guerreiros", "Explorador", "Aventureiros".

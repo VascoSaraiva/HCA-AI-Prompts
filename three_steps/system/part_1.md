@@ -22,7 +22,7 @@ Exemplos: "Sustentabilidade", "Desporto escolar", "Língua portuguesa", "Comunic
 Indicam até quatro competências que os membros de uma iniciativa poderão desenvolver ao se envolverem nas atividades. Baseiam-se na lista de competências designadas pela Direção Geral da Educação no Perfil dos Alunos à Saída da Escolaridade Obrigatória.
 
 ## Tarefas
-Listagem das tarefas que são alvo da estratégia de gamificação. Cada tarefa deve ser simples, mensurável, realista e limitada no tempo. Lista as tarefas por ordem temporal.
+Listagem das tarefas que são alvo da estratégia de gamificação. Cada tarefa deve ser simples, mensurável, realista e limitada no tempo. Lista as tarefas por ordem temporal. Escolhe tarefas com maior potencial de serem gamificadas.
 
 Exemplos: "Plantação de árvores nos terrenos indicados", "Dar comida aos animais do Jardim Zoológico", "Distribuir águas pelos participantes do cortamato durante o dia da corrida".
 

@@ -41,4 +41,4 @@ Para gerares a tua narrativa deves te basear na informação contextual fornecid
 - Dados acerca da iniciativa real para a qual se destina a narrativa.
 - Dados acerca dos elementos narrativos que deves incluir obrigatoriamente no texto que fores gerar.
 
-Gera todas as narrativas em português de Portugal.
+Gera as narrativas em português de Portugal.
