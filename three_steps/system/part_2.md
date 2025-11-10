@@ -35,7 +35,7 @@ O utilizador pode ou não fornecer detalhes acerca dos elementos narrativos que 
 - Uma frase que apresenta o elemento de suspense da narrativa.
 - Deve ser decifrável, mas ambíguo o suficiente de forma não se tornar óbvio.
 - Relaciona este elemento suspense com o que os participantes sentem na atividade real.
-- Deves te questionar: Existe alguma incerteza na atividae do mundo real que possa ser metaforizada num elemento de suspense?
+- deves questionar-te: Existe alguma incerteza na atividae do mundo real que possa ser metaforizada num elemento de suspense?
 
 Depois de definir estes elementos, gera a narrativa, respeitando as regras seguintes.
 

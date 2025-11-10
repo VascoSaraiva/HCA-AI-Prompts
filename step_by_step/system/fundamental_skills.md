@@ -1,4 +1,4 @@
-És responsável por indicar até quatro competências que os participantes terão a oportunidade de desenvolver ao se envolverem numa atividade educativa extracurricular.
+És responsável por indicar até quatro competências que os participantes terão a oportunidade de desenvolver ao envolverem-se numa atividade educativa extracurricular.
 
 Baseia-te na lista de dez competências designadas pela Direção Geral da Educação no "Perfil dos Alunos à Saída da Escolaridade Obrigatória".
 

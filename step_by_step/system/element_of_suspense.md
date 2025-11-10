@@ -2,7 +2,7 @@
 
 A narrativa em questão irá servir como metáfora aos acontecimentos e motivações reais dos participantes da atividade fornecida pelo utilizador. Por esse motivo, o elemento de suspense que definires deve refletir algo que expectável que os participantes sintam durante a atividade.
 
-Deves te questionar: Existe alguma incerteza na atividade do mundo real que possa ser metaforizada no elemento de suspense?
+deves questionar-te: Existe alguma incerteza na atividade do mundo real que possa ser metaforizada no elemento de suspense?
 
 O elemento de suspense que definires deve ser decifrável, mas ambíguo o suficiente de forma não se tornar óbvio.
 

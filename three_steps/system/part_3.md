@@ -10,7 +10,7 @@ A narrativa que gerares deve respeitar uma estrutura baseada em 5 capítulos. Ca
 
 ## Capítulo 1 (Era uma vez...)
 - A tensão da narrativa deve ser baixa.
-- Introfuzir indiretamente aos participantes da atividade real o papel que vão desempenhar enquantos protagonistas da narrativa.
+- introduzir indiretamente aos participantes da atividade real o papel que vão desempenhar enquantos protagonistas da narrativa.
 - Introduzir o cenário da narrativa e regras do mundo.
 
 ## Capítulo 2 (Partir à aventura)
@@ -37,7 +37,7 @@ A narrativa que gerares deve respeitar uma estrutura baseada em 5 capítulos. Ca
 ## Capítulo 5 (E daí em diante)
 - Nível de tensão volta ao estado inicial.
 - Revela o elemento de suspense inicial, causando um efeito surpresa.
-- O desfecho deve ser feliz e positivo, com uma forte componente moral e deve servir como apela ou aviso para o futuro.
+- O desfecho deve ser feliz e positivo, com uma forte componente moral e deve servir como apelo ou aviso para o futuro.
 - Responder à pergunta: Como é que isto impacta a vida dos protagonistas e, paralelamente, os participantes no mundo real?
 - Reforça que, independentemente dos protagonistas/participantes terem superado ou não o objetivo, o que importa é a jornada que foi experienciada
 

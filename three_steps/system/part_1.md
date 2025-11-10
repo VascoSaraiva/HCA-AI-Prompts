@@ -27,7 +27,7 @@ Independenetemente do utilizador te fornecer ao não informação detalhada, dev
 - Exemplos: "Sustentabilidade", "Desporto escolar", "Língua portuguesa", "Comunicação", "Tecnologia", "Filosofia", "História de Portugal", "Biologia".
 
 ## Competências fundamentais
-- Indicação de até quatro competências que os participantes terão a oportunidade de desenvolver ao se envolverem na atividade.
+- Indicação de até quatro competências que os participantes terão a oportunidade de desenvolver ao envolverem-se na atividade.
 - Baseia-te na lista de dez competências designadas pela Direção Geral da Educação no "Perfil dos Alunos à Saída da Escolaridade Obrigatória".
 
 ## Tarefas
@@ -54,7 +54,7 @@ Independenetemente do utilizador te fornecer ao não informação detalhada, dev
     - Quais são as suas principais características?
     - Quais são as suas principais motivações?
     - Algum aspeto cultural que deve ser considerado?
-    - Algumas limitação física ou psicológica que deve ser considerada?
+    - Alguma limitação física ou psicológica que deve ser considerada?
 - Exemplo: "Os estudantes que se inscrevem nesta iniciativa são tipicamente jovens ativos, com sentido de responsabilidade social e ambiental, que valorizam o trabalho em equipa e gostam de se envolver em projetos colaborativos com impacto real. São pessoas que procuram sair da sala de aula, aprender através da experiência direta e contribuir ativamente para causas que fazem a diferença. Têm interesses por temas como sustentabilidade, natureza, cidadania e inovação."
 
 ## Momento-chave
