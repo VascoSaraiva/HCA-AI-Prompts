@@ -8,6 +8,7 @@
                 "type": "array",
                 "items": {
                     "type": "string",
+                    "minItems": 4,
                     "enum": [
                         "Linguagens e textos",
                         "Desenvolvimento pessoal e autonomia",

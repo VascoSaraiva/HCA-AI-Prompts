@@ -15,12 +15,14 @@
             },
             "areas": {
                 "type": "array",
+                "minItems": 3,
                 "items": {
                     "type": "string"
                 }
             },
             "fundamental_skills": {
                 "type": "array",
+                "minItems": 4,
                 "items": {
                     "type": "string",
                     "enum": [
@@ -39,6 +41,7 @@
             },
             "tasks": {
                 "type": "array",
+                "minItems": 10,
                 "items": {
                     "type": "object",
                     "properties": {

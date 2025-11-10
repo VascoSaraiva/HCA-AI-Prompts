@@ -7,28 +7,28 @@
             "text": {
                 "type": "object",
                 "properties": {
-                    "moment_1": {
+                    "chapter_1": {
                         "type": "string"
                     },
-                    "moment_2": {
+                    "chapter_2": {
                         "type": "string"
                     },
-                    "moment_3": {
+                    "chapter_3": {
                         "type": "string"
                     },
-                    "moment_4": {
+                    "chapter_4": {
                         "type": "string"
                     },
-                    "moment_5": {
+                    "chapter_5": {
                         "type": "string"
                     }
                 },
                 "required": [
-                    "moment_1",
-                    "moment_2",
-                    "moment_3",
-                    "moment_4",
-                    "moment_5"
+                    "chapter_1",
+                    "chapter_2",
+                    "chapter_3",
+                    "chapter_4",
+                    "chapter_5"
                 ],
                 "additionalProperties": false
             }

@@ -6,6 +6,7 @@
         "properties": {
             "tasks": {
                 "type": "array",
+                "minItems": 10,
                 "items": {
                     "type": "object",
                     "properties": {

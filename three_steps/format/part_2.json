@@ -28,45 +28,10 @@
                 ]
             },
             "protagonists": {
-                "type": "object",
-                "properties": {
-                    "type": {
-                        "type": "string",
-                        "enum": [
-                            "O leitor",
-                            "O grupo de participantes"
-                        ]
-                    },
-                    "description": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "type",
-                    "description"
-                ],
-                "additionalProperties": false
+                "type": "string"
             },
             "scenario": {
-                "type": "object",
-                "properties": {
-                    "type": {
-                        "type": "string",
-                        "enum": [
-                            "Localização",
-                            "Contexto Temporal",
-                            "Contexto Social"
-                        ]
-                    },
-                    "description": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "type",
-                    "description"
-                ],
-                "additionalProperties": false
+                "type": "string"
             },
             "narrator": {
                 "type": "string"
@@ -76,6 +41,34 @@
             },
             "element_of_suspense": {
                 "type": "string"
+            },
+            "text": {
+                "type": "object",
+                "properties": {
+                    "chapter_1": {
+                        "type": "string"
+                    },
+                    "chapter_2": {
+                        "type": "string"
+                    },
+                    "chapter_3": {
+                        "type": "string"
+                    },
+                    "chapter_4": {
+                        "type": "string"
+                    },
+                    "chapter_5": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "chapter_1",
+                    "chapter_2",
+                    "chapter_3",
+                    "chapter_4",
+                    "chapter_5"
+                ],
+                "additionalProperties": false
             }
         },
         "required": [
@@ -84,7 +77,8 @@
             "scenario",
             "narrator",
             "objective",
-            "element_of_suspense"
+            "element_of_suspense",
+            "text"
         ],
         "additionalProperties": false
     }
