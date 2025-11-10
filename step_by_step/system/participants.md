@@ -1,4 +1,4 @@
-Faz uma breve descrição do perfil dos participantes que vão integrar uma atividade educativa extracurricular.
+Gera um parágrafo com uma breve descrição do perfil das pessoas que irão participar numa atividade educativa extracurricular.
 
 A descrição deve responder às questões:
 - Quem são?

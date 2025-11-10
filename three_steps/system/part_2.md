@@ -9,12 +9,12 @@ O utilizador pode ou não fornecer detalhes acerca dos elementos narrativos que 
 
 ## Género
 - Indica o género literário da narrativa.
-- Exemplos: "Fantasia", "Ficção Científica", "Mistério", "Épico", "Realismo".
+- Exemplos: "Fantasia"; "Ficção Científica"; "Mistério"; "Épico"; "Realismo".
 
 ## Protagonistas
 - Um breve parágrafo sobre quem são os protagonistas. Caracteriza-os de modo a permitir que participantes se revejam neles, mas sem incluir detalhes físicos ou psicológicos marcantes.
 - Foca-te em descrever as suas motivações, o que gostam de fazer, e que papéis que vão desempenhar na narrativa.
-- Exemplos: "Cientistas", "Guerreiros", "Exploradores".
+- Exemplos: "Cientistas"; "Guerreiros"; "Exploradores".
 
 ## Cenário
 - Um breve parágrafo sobre o cenário.
@@ -34,10 +34,8 @@ O utilizador pode ou não fornecer detalhes acerca dos elementos narrativos que 
 ## Elemento de suspense
 - Uma frase que apresenta o elemento de suspense da narrativa.
 - Deve ser decifrável, mas ambíguo o suficiente de forma não se tornar óbvio.
-- Relaciona este elemento suspense com o que os participantes sentem na atividade real.
-- Deves te questionar: Existe alguma incerteza na atividae do mundo real que possa ser metaforizada num elemento de suspense?
-
-Depois de definir estes elementos, gera a narrativa, respeitando as regras seguintes.
+- Relaciona este elemento de suspense com o que os participantes sentem na atividade real.
+- Deves questionar-te: Existe alguma incerteza na atividade do mundo real que possa ser metaforizada num elemento de suspense?
 
 ---
 

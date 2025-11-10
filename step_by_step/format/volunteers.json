@@ -1,15 +1,15 @@
 {
-    "name": "participants",
+    "name": "volunteers",
     "strict": true,
     "schema": {
         "type": "object",
         "properties": {
-            "participants": {
+            "volunteers": {
                 "type": "string"
             }
         },
         "required": [
-            "participants"
+            "volunteers"
         ],
         "additionalProperties": false
     }

@@ -39,50 +39,21 @@
                     ]
                 }
             },
-            "tasks": {
-                "type": "array",
-                "minItems": 10,
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "id": {
-                            "type": "number"
-                        },
-                        "description": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "id",
-                        "description"
-                    ],
-                    "additionalProperties": false
-                }
-            },
             "participants": {
-                "type": "object",
-                "properties": {
-                    "educationLevel": {
-                        "type": "string",
-                        "description": "The educational level of the participants that the activity will attract.",
-                        "enum": [
-                            "2º Ciclo",
-                            "3º Ciclo",
-                            "Ensino Secundário",
-                            "Licenciatura",
-                            "Mestrado",
-                            "Doutoramento"
-                        ]
-                    },
-                    "description": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "educationLevel",
-                    "description"
-                ],
-                "additionalProperties": false
+                "type": "string"
+            },
+            "organizers": {
+                "type": "string"
+            },
+            "volunteers": {
+                "type": "string"
+            },
+            "to_recognize": {
+                "type": "array",
+                "minItems": 8,
+                "items": {
+                    "type": "string"
+                }
             },
             "objective": {
                 "type": "string"
@@ -115,8 +86,10 @@
             "typology",
             "areas",
             "fundamental_skills",
-            "tasks",
             "participants",
+            "organizers",
+            "volunteers",
+            "to_recognize",
             "objective",
             "duration",
             "key_moment"

@@ -1,15 +1,15 @@
 {
-    "name": "participants",
+    "name": "organizers",
     "strict": true,
     "schema": {
         "type": "object",
         "properties": {
-            "participants": {
+            "organizers": {
                 "type": "string"
             }
         },
         "required": [
-            "participants"
+            "organizers"
         ],
         "additionalProperties": false
     }
